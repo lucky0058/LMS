@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/***********************************************Universal classes****************************************************************************/
+.btn{
+    width:150px;
+    background-color:rgb(250, 93, 93);
+    color:white;
+    margin:auto;
+}
+
+.footer{
+    width:100%;
+    height:10vh;
+    padding-top:30px;
+    margin-bottom:0px;
+    text-align:center;
+    background-color:lightgrey;
+}
+
+.page-container{
+    width:80vw;
+    height:100vh;
+    padding:150px 20px 20px 100px;
+} 
+
+.heading{
+    text-align:center;
+}
+input{
+    border:none;
+    border-bottom:1px solid black;
+    padding: 5px 10px;
+    margin:5px 0px;
+    font-size:15px;
+}
+
+.signin-signup-form-container{
+    width:40vw;
+    height:80vh;
+    position:absolute;
+    top:15%;
+    left:15%;
+}
+
+.signin-signup-form{
+    width:25vw;
+    background-color:rgb(231, 205, 200); 
+    padding:5%;
+    margin:18%;
+    display:flex;
+    flex-direction:column; 
+}
+
+/******************************************Index Page*************************************************************************************/
+
+
+.index-main-block{
+width:30%;
+height:45%;
+background-color:rgb(231, 205, 200);
+position:absolute;
+top:50%;
+left:50%;
+padding:70px 20px 20px 40px;
+box-shadow:2px 2px 5px lightgrey;
+}
+.quote-block{
+margin:30px 50px; 
+font-size:20px;
+}
+.index-page-btn{
+    margin:30px 10px 10px 30px;
+}
+.circle{
+    z-index:-1;
+    border-radius:100px;
+    position:absolute;
+}
+.red-circle{
+    width:200px;
+    height:200px;
+    background-color:rgb(250, 93, 93);
+    top:10%;
+    left:65%;
+}
+.black-circle{
+    background-color:black;
+    width:90px;
+    height:90px;
+    top:87%;
+    left:30%;
+}
+
+
+/************************************************User Signin Page****************************************************************/
+
+
+.user-signin-form-container{
+    background-color:rgba(250, 93, 93,0.8);
+}
+
+.user-signin-form{
+    height:50vh;
+}
+
+#user-sign-in-image1{
+    position:absolute;
+    left:45%;
+    top:55%;
+    height:20vh;
+    width:20vw;
+}
+
+.user-signin-span{
+    font-size:15px;
+    text-align:center;
+}
+
+/************************************************user-Signup Page****************************************************************/
+.user-signup-form-container{
+    background-color:rgba(250, 93, 93,0.8);
+}
+
+.user-signup-form{
+    height:60vh;
+}
+
+/***************************************************admin-sign-in page**********************************************************/
+.admin-signin-container{
+    height:100vh;
+}
+.admin-signin-form-container{
+    background-color:rgba(15, 14, 14,0.8);
+}
+.admin-login-btn{
+    margin-top:30px;
+}
+
+
+/******************************************************Home Page****************************************************************/
+
+.carousel-caption{
+    background-color:black;
+    box-shadow: 4px 4px 8px lightgrey;
+    padding:1rem;
+}
+.home-carousel-heading{
+    font-size:4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-statistics{
+width:100vw;
+height:80vh;
+text-align:center;
+padding:10% 4%;
+}
+.home-statistics-main-heading{
+font-size:4rem;
+font-weight:bold;
+}
+.home-statistics-item{
+width:300px;
+height:200px;
+background-color:rgb(250, 93, 93);
+display:inline-block;
+margin:4% 5%;
+border-radius:5%;
+padding:2% 0% 0% 0%;
+color:white;
+box-shadow:2px 2px 2px grey;
+}
+
+.home-statistics-item-heading{
+padding:0% 0% 2% 0%;
+}
+
+/****user-homepage****/
+/* .container{
+width:100%;
+height:100vh;
+background-color:blue;
+}
+ .container-left{
+width:400px;
+height:500px;
+background-color:pink;
+ }
+.container-right{
+width:400px;
+height:500px;
+background-color:pink;
+} */
+
